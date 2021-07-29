@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shoppy Shopper &#8211; Your Affordable Fashion Destination</title>
+	
+	 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="icon" href="https://streetsshopper.com/wp-content/uploads/2021/03/cropped-cropped-SS-logo-Curved-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://streetsshopper.com/wp-content/uploads/2021/03/cropped-cropped-SS-logo-Curved-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://streetsshopper.com/wp-content/uploads/2021/03/cropped-cropped-SS-logo-Curved-180x180.png" />
+<meta name="msapplication-TileImage" content="https://streetsshopper.com/wp-content/uploads/2021/03/cropped-cropped-SS-logo-Curved-270x270.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+<style>
+.container-fluid h5{
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-family: 'Trade Winds', cursive;
+	color:#000;
+	text-align:center;
+	padding-top:20px;
+	}
+	
+.container-fluid  h2{
+	font-size: 15px;
+font-family: 'Merienda', cursive;
+	color:#000;
+	text-align:center;
+	
+	}
+	
+	.container-fluid p,p{
+	font-size: 15px;
+	font-family: 'Merienda', cursive;
+	color:#000;
+	
+	}
+	
+
+
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.grid2x2 > div {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
+.grid2x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box { margin: 20px; }
+
+.btn-default{
+	font-family: 'Trade Winds', cursive;
+	letter-spacing:1px;
+	color:#000;
+	border: solid #F103FB 1px;
+ 
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	
+	background-color: #F103FB;
+	color:#FFF;
+	border-color: #F103FB;
+ 
+}
+/* footer----*/
+
+.footer {
+    position: relative;
+    margin-top: 45px;
+    padding-top: 90px;
+    background: rgba(0, 0, 0, .04);
+}
+
+.footer .footer-contact,
+.footer .footer-working
+.footer {
+    position: relative;
+    margin-bottom: 45px;
+    color: #000000;
+	
+}
+
+.footer .footer-contact h2,
+.footer .footer-working h2,
+.footer .footer-form h2 {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+		font-family: 'Trade Winds', cursive;
+}
+
+.footer .footer-contact h2::after,
+.footer .footer-working h2::after,
+.footer .footer-form h2::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #F103FB;
+}
+
+.footer .footer-working a {
+    display: block;
+    margin-bottom: 10px;
+    color: #F103FB;
+	
+   
+}
+
+.footer .footer-working a::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #F103FB;
+}
+
+.footer .footer-working a:hover {
+    color: #F103FB;
+    letter-spacing: 1px;
+}
+
+.footer .footer-contact p i {
+    width: 25px;
+    
+}
+
+.footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+	
+}
+
+.footer .footer-social a {
+    display: inline-block;
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #F103FB 1px;
+    font-size: 16px;
+	color:#000;
+    
+	
+}
+
+.footer .footer-social a:hover {
+    background: #F103FB;
+	 color: #000000;
+}
+
+
+.footer .footer-social a:last-child {
+    margin: 0;
+	 color: #000000;
+}
+
+.btn-default2
+ 
+{
+  
+color:#000;
+ 
+ border: solid #F103FB 1px;
+ 
+}
+ 
+.btn-default2:hover, .btn-default1:focus, .btn-default2:active, .btn-default2.active, .open .dropdown-toggle.btn-default {
+ 
+ 
+ 
+background-color: #F103FB;
+ 
+color:#FFF;
+ 
+border-color: #F103FB;
+ 
+}
+
+.footer-form{
+font-family: 'Merienda', cursive;
+}
+
+
+
+.footer .copyright {
+    position: relative;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background: #ffffff;
+	font-family: 'Merienda', cursive;
+
+}
+
+.footer .copyright p {
+    margin: 0;
+    display: inline-block;
+    color: #000;
+}
+
+.footer .copyright p a {
+    color: #F103FB;
+}
+
+.footer .copyright p a:hover {
+    color: #F103FB;
+}
+
+
+
+</style>
+<head>
+<body>
+
+<!-- About us-->
+
+			<div class="container-fluid">  
+				<div class="About us">  
+					<h5 >Welcome to Our Store</h5>
+					<h2>Welcome to Shoppyshopper.com, we started in the year 2000, founded by Sri Sylendra Kumar and Malarvizhi A S.</h2>
+				</div>
+	  
+  <!-- row 1-->
+  <!--image-->
+			<div class="grid2x2">
+				<div class="box box1">
+					<img src="C:\Users\ELCOT\Desktop\smarp\project\images\about.jpg" class="img-responsive margin" style="width:100%" "height:100%" alt="Image">  
+				</div>
+			
+	<!--text-->
+			<div class="box box2">
+				<h5>About us</h5>
+				</br>
+				<p> Shoppyshopper.com is an e-commerce website which gives you the experience of doing street shopping at anywhere anytime in an affordable price.  Now we started with jewellery, hair  and accessories.
+				
+				</br>
+				</br>
+				If you like doing shoppy shopping at low price, this is the place for you to shop your fashion accessories.
+				</br>
+				</br>
+				We hope you enjoy our products as much as we enjoy offering them to you.
+				</br>
+				</br>
+				Our Mission is to provide the best fashion accessories directly from manufacturer to End User.
+				</br>
+				</br>
+				Our Tag Line: “Your Affordable Fashion Destination”
+				</br>
+				</br>
+				How shoppyshoppers.com can offer fashion accessories at affordable price?
+				</br>
+				</br>
+				Others :
+				</br>
+				</br>
+				Manufacture -> Main wholesalers -> sub wholesalers -> retailers -> End user.
+				</br>
+				</br>
+				Shoppyshopper.com:
+				</br>
+				</br>
+				Manufacturer -> End Customer
+				</p>
+				</p>						
+				<div  id="button">
+							<input type="button"   class="btn btn-default"id="btn" value="Read more" onclick="Readmore()"></td>
+						</div>
+			</div>
+		</div>
+		</div>
+		<div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="footer-contact">
+                                    <h2>Our Address</h2>
+                                    <p><i class="fa fa-map-marker-alt"></i>No.4/45  </br>
+									G.N.T Road </br> 
+									 Red Hills, </br>Chennai, Tamil Nadu 600052</p>
+                                   
+                                   
+                                    <div class="footer-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="footer-working">
+								
+                                    <h2>Working hours</h2>
+                                    <p> Monday-Saturday</br>
+									09:00 am – 20:30 pm</p>
+									<p><i class="fa fa-phone-alt"></i>+91 123457890</p>
+									 <p><i class="fa fa-envelope"></i>info@shoppyshopper.com</br>
+									support@shoppyshopper.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-5">
+                        <div class="footer-form">
+                          
+                            <h2>Contact Us for Franchise</h2>
+                            
+                            <div id="name-group" class="footer-form">
+								  <label for=" Name">Name</label>
+								  <input type="text"  class="form-control" id="name"   name="name"  placeholder=" Name"/>
+								</div>
+								<div id="mail-group" class="form-group">
+								  <label for=" Email">Email</label>
+								  <input type="text"  class="form-control" id="name"   name="name"  placeholder=" Email"/>
+								</div>
+								<div id="Message-group" class="form-group">
+								  <label for=" Message">Message</label>
+								  <input type="text"  class="form-control" id="name"   name="name"  placeholder=" Leave Message"/>
+								</div>
+								<div  id="button">
+									<input type="button"   class="btn btn-default2"id="btn" value="Submit" onclick="submit()"></td>
+								</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p>Copyright &copy; <a href="#">shoppy shopper.com</a>, All Right Reserved.</p>
+                    <p>Designed By <a href="https://smarp-technologies-private-ltd.business.site/">developer</a></p>
+                </div>
+            </div>
+        </div>
+	</body>
+	</html>
